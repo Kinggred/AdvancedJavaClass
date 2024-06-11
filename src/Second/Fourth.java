@@ -1,10 +1,10 @@
-package Secnd;
+package Second;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Forth {
+public class Fourth {
     private static final Random rand = new Random();
     private static final Integer LENGTH = 12;
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package Secnd;
+package Second;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Thrd {
+public class Third {
     public static void main(String[] args) {
         List<Author> authors = getAuthorsList();
         List<Book> books = getBookList(authors);
@@ -28,9 +28,7 @@ public class Thrd {
         List<Author> authorList = new ArrayList<>();
         books.forEach(book -> {
             Author author = book.getAuthor();
-            if(!authorList.contains(author)) {
-                authorList.add(author);
-            }
+            if(!authorList.contains(author)) authorList.add(author);
         });
         System.out.println(authorList);
     }

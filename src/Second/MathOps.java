@@ -1,4 +1,4 @@
-package Secnd;
+package Second;
 
 @FunctionalInterface
 public interface MathOps {

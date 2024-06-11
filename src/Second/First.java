@@ -1,9 +1,9 @@
-package Secnd;
+package Second;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Frst {
+public class First {
     public static void main(String[] args) {
         List<Integer> lista = new ArrayList<>();
         lista.add(2);

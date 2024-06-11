@@ -1,4 +1,4 @@
-package Secnd;
+package Second;
 
 public class Book {
     private String title;

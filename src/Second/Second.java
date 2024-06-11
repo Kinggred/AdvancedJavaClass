@@ -1,6 +1,6 @@
-package Secnd;
+package Second;
 
-public class Secnd {
+public class Second {
     public static void main(String[] args) {
         MathOps append = (a,b) -> a + b;
         MathOps subtract = (c,d) -> c - d;
